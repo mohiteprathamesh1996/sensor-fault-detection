@@ -2,4 +2,6 @@ pymongo[srv]==4.2.0
 pandas
 certifi
 datetime
+scikit-learn
+typing
 -e .
