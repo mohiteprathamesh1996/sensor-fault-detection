@@ -4,6 +4,7 @@ certifi
 datetime
 scikit-learn
 typing
+scipy
 PyYAML
 dill
 -e .
