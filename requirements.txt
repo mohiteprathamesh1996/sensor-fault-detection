@@ -4,4 +4,6 @@ certifi
 datetime
 scikit-learn
 typing
+PyYAML
+dill
 -e .
