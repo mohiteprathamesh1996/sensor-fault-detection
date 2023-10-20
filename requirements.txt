@@ -5,6 +5,7 @@ datetime
 scikit-learn
 typing
 scipy
+imblearn
 PyYAML
 dill
 -e .
