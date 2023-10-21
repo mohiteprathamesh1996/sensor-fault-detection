@@ -1,4 +1,5 @@
 import os
+
 class TargetValueMapping:
     def __init__(self):
         self.neg: int = 0
