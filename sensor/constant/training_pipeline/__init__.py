@@ -15,6 +15,7 @@ MODEL_FILE_NAME = "model.pkl"
 SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
 SCHEMA_DROP_COLS = "drop_columns"
 
+
 # Define constants for data ingestion
 DATA_INGESTION_COLLECTION_NAME = "car"
 DATA_INGESTION_DIR_NAME = "data_ingestion"
@@ -49,7 +50,8 @@ MODEL_EVALUATION_DIR_NAME: str = "model_evaluation"
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
 MODEL_EVALUATION_REPORT_NAME= "report.yaml"
 
+
 # Define constants for model pushing
 MODEL_PUSHER_DIR_NAME = "model_pusher"
-SAVED_MODEL_DIR =os.path.join("saved_models")
+SAVED_MODEL_DIR = os.path.join("saved_models")
 MODEL_PUSHER_SAVED_MODEL_DIR = SAVED_MODEL_DIR
