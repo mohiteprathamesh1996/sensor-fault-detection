@@ -3,9 +3,11 @@ pandas
 certifi
 datetime
 scikit-learn
+seaborn
 typing
 scipy
 imblearn
 PyYAML
+xgboost
 dill
 -e .
