@@ -1,4 +1,3 @@
-
 from sensor.exception import SensorException
 from sensor.logger import logging
 
@@ -16,7 +15,7 @@ from sensor.utils.main_utils import save_object, load_object, write_yaml_file
 from sensor.ml.model.estimator import ModelResolver
 from sensor.constant.training_pipeline import TARGET_COLUMN
 from sensor.ml.model.estimator import TargetValueMapping
-import pandas  as  pd
+import pandas as pd
 
 
 class ModelEvaluation:
