@@ -46,12 +46,12 @@ MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
 
 
 # Define constants for model evaluation
+SAVED_MODEL_DIR = os.path.join("saved_models")
 MODEL_EVALUATION_DIR_NAME: str = "model_evaluation"
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
-MODEL_EVALUATION_REPORT_NAME= "report.yaml"
+MODEL_EVALUATION_REPORT_NAME = "report.yaml"
 
 
 # Define constants for model pushing
 MODEL_PUSHER_DIR_NAME = "model_pusher"
-SAVED_MODEL_DIR = os.path.join("saved_models")
 MODEL_PUSHER_SAVED_MODEL_DIR = SAVED_MODEL_DIR

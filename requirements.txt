@@ -9,5 +9,7 @@ scipy
 imblearn
 PyYAML
 xgboost
+pytest-shutil
+shutils
 dill
 -e .
