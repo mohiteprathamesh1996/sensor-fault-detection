@@ -39,6 +39,7 @@ class ModelPusher:
             #prepare artifact
             model_pusher_artifact = ModelPusherArtifact(saved_model_path=saved_model_path, model_file_path=model_file_path)
             return model_pusher_artifact
+        
         except  Exception as e:
             raise SensorException(e, sys)
     
