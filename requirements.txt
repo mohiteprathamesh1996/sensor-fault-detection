@@ -12,4 +12,6 @@ xgboost
 pytest-shutil
 shutils
 dill
+fastapi
+uvicorn
 -e .

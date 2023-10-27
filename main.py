@@ -3,7 +3,9 @@ from sensor.exception import SensorException
 from sensor.logger import logging
 import os, sys
 from sensor.pipeline.training_pipeline import TrainPipeline
-
+from sensor.constant.application import APP_HOST, APP_PORT
+from fastapi import FastAPI
+from uvicorn import run as app_run
 
 
 if __name__ == "__main__":
