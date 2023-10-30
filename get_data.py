@@ -7,7 +7,7 @@ if __name__=='__main__':
     data_file_path="aps_failure_training_set1.csv"
     env_file_path='env.yaml'
     set_env_variable(env_file_path)
-    print(os.environ['MONGO_DB_URL'])
+    print(os.environ['MONGODB_URL'])
     sd = SensorData()
     if DATA_INGESTION_COLLECTION_NAME in sd.mongo_client.database.list_collection_names():
         sd.mongo_client.database[DATA_INGESTION_COLLECTION_NAME].drop()
