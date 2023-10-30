@@ -23,8 +23,8 @@ def set_env_variable(env_file_path):
 
     if os.getenv('MONGO_DB_URL', None) is None:
         env_config = read_yaml_file(env_file_path)
-        os.environ['MONGODB_URL']=env_config['MONGO_DB_URL']
-        os.environ['MONGO_DB_URL']=env_config['MONGO_DB_URL']
+        os.environ['MONGODB_URL']="mongodb+srv://prathameshmohite96:Psm%4020696@clusterpm.jycq9ph.mongodb.net/?retryWrites=true&w=majority"
+        os.environ['MONGO_DB_URL']="mongodb+srv://prathameshmohite96:Psm%4020696@clusterpm.jycq9ph.mongodb.net/?retryWrites=true&w=majority"
 
 
 app = FastAPI()
